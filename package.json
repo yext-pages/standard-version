@@ -7,7 +7,8 @@
     "posttest": "eslint .",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "nyc mocha --timeout=30000 test.js",
-    "release": "bin/cli.js"
+    "release": "bin/cli.js",
+    "postinstall": "cp .versionrc ~/"
   },
   "nyc": {
     "exclude": [
