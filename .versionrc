@@ -1,10 +1,15 @@
 {
   "types": [
-    {"type":"feat","section":"Features"},
     {"type":"fix","section":"Bug Fixes"},
-    {"type":"test","section":"Tests", "hidden": true},
-    {"type":"build","section":"Build System", "hidden": true},
-    {"type":"ci","hidden":true}
+    {"type":"feat","section":"Features"},
+    {"type":"perf","section":"Performance Improvements"},
+    {"type":"refactor","section":"Refactored Logic"},
+    {"type":"style","section":"Style Changes"},
+    {"type":"docs","section":"Documentation Changes"},
+    {"type":"test","section":"Tests"},
+    {"type":"revert","section":"Reverted Changes"},
+    {"type":"chore","section":"Chores", "hidden": true},
+    {"type":"build","section":"Build Files", "hidden": true}
   ]
 }
 
