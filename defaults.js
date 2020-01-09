@@ -7,7 +7,7 @@ const defaults = {
   noVerify: false,
   commitAll: false,
   silent: false,
-  tagPrefix: 'v',
+  tagPrefix: '',
   scripts: {},
   skip: {},
   dryRun: false,
